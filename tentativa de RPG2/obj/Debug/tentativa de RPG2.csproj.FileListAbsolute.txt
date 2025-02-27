@@ -1,0 +1,10 @@
+B:\Nova pasta\C#\tentativa de RPG2\bin\Debug\tentativa de RPG2.exe.config
+B:\Nova pasta\C#\tentativa de RPG2\bin\Debug\tentativa de RPG2.exe
+B:\Nova pasta\C#\tentativa de RPG2\bin\Debug\tentativa de RPG2.pdb
+B:\Nova pasta\C#\tentativa de RPG2\obj\Debug\tentativa de RPG2.csproj.AssemblyReference.cache
+B:\Nova pasta\C#\tentativa de RPG2\obj\Debug\tentativa_de_RPG2.Form1.resources
+B:\Nova pasta\C#\tentativa de RPG2\obj\Debug\tentativa_de_RPG2.Properties.Resources.resources
+B:\Nova pasta\C#\tentativa de RPG2\obj\Debug\tentativa de RPG2.csproj.GenerateResource.cache
+B:\Nova pasta\C#\tentativa de RPG2\obj\Debug\tentativa de RPG2.csproj.CoreCompileInputs.cache
+B:\Nova pasta\C#\tentativa de RPG2\obj\Debug\tentativa de RPG2.exe
+B:\Nova pasta\C#\tentativa de RPG2\obj\Debug\tentativa de RPG2.pdb
