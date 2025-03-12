@@ -31,11 +31,11 @@
             this.components = new System.ComponentModel.Container();
             this.gametimer = new System.Windows.Forms.Timer(this.components);
             this.Player = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.NPC = new System.Windows.Forms.PictureBox();
+            this.caixaX = new System.Windows.Forms.Label();
+            this.Texto = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Player)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NPC)).BeginInit();
             this.SuspendLayout();
             // 
             // gametimer
@@ -51,55 +51,58 @@
             this.Player.Size = new System.Drawing.Size(48, 50);
             this.Player.TabIndex = 0;
             this.Player.TabStop = false;
+            this.Player.Click += new System.EventHandler(this.Player_Click);
             // 
-            // pictureBox1
+            // NPC
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Lime;
-            this.pictureBox1.Location = new System.Drawing.Point(172, 199);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(48, 50);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.NPC.BackColor = System.Drawing.Color.Lime;
+            this.NPC.Location = new System.Drawing.Point(172, 199);
+            this.NPC.Name = "NPC";
+            this.NPC.Size = new System.Drawing.Size(48, 50);
+            this.NPC.TabIndex = 1;
+            this.NPC.TabStop = false;
             // 
-            // label1
+            // caixaX
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(177, 144);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 37);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "X";
+            this.caixaX.AutoSize = true;
+            this.caixaX.BackColor = System.Drawing.Color.White;
+            this.caixaX.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.caixaX.ForeColor = System.Drawing.Color.White;
+            this.caixaX.Location = new System.Drawing.Point(177, 144);
+            this.caixaX.Name = "caixaX";
+            this.caixaX.Size = new System.Drawing.Size(38, 37);
+            this.caixaX.TabIndex = 2;
+            this.caixaX.Text = "X";
             // 
-            // label2
+            // Texto
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(234, 104);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(421, 37);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "TEXTO, aperte Z para sair";
+            this.Texto.AutoSize = true;
+            this.Texto.BackColor = System.Drawing.Color.White;
+            this.Texto.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Texto.ForeColor = System.Drawing.Color.White;
+            this.Texto.Location = new System.Drawing.Point(234, 104);
+            this.Texto.Name = "Texto";
+            this.Texto.Size = new System.Drawing.Size(421, 37);
+            this.Texto.TabIndex = 3;
+            this.Texto.Text = "TEXTO, aperte Z para sair";
+            this.Texto.Click += new System.EventHandler(this.Texto_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Texto);
+            this.Controls.Add(this.caixaX);
             this.Controls.Add(this.Player);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.NPC);
             this.Name = "Form1";
             this.Text = "Form1";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.keypress);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.keyup);
             ((System.ComponentModel.ISupportInitialize)(this.Player)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NPC)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -109,9 +112,9 @@
 
         private System.Windows.Forms.Timer gametimer;
         private System.Windows.Forms.PictureBox Player;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox NPC;
+        private System.Windows.Forms.Label caixaX;
+        private System.Windows.Forms.Label Texto;
     }
 }
 

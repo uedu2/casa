@@ -1,0 +1,14 @@
+B:\Nova pasta\C#\POO\bin\Debug\net8.0\POO.exe
+B:\Nova pasta\C#\POO\bin\Debug\net8.0\POO.deps.json
+B:\Nova pasta\C#\POO\bin\Debug\net8.0\POO.runtimeconfig.json
+B:\Nova pasta\C#\POO\bin\Debug\net8.0\POO.dll
+B:\Nova pasta\C#\POO\bin\Debug\net8.0\POO.pdb
+B:\Nova pasta\C#\POO\obj\Debug\net8.0\POO.GeneratedMSBuildEditorConfig.editorconfig
+B:\Nova pasta\C#\POO\obj\Debug\net8.0\POO.AssemblyInfoInputs.cache
+B:\Nova pasta\C#\POO\obj\Debug\net8.0\POO.AssemblyInfo.cs
+B:\Nova pasta\C#\POO\obj\Debug\net8.0\POO.csproj.CoreCompileInputs.cache
+B:\Nova pasta\C#\POO\obj\Debug\net8.0\POO.dll
+B:\Nova pasta\C#\POO\obj\Debug\net8.0\refint\POO.dll
+B:\Nova pasta\C#\POO\obj\Debug\net8.0\POO.pdb
+B:\Nova pasta\C#\POO\obj\Debug\net8.0\POO.genruntimeconfig.cache
+B:\Nova pasta\C#\POO\obj\Debug\net8.0\ref\POO.dll

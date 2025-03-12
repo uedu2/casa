@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "anotações ARITMÉTICOS/1.0.0": {
+        "runtime": {
+          "anotações ARITMÉTICOS.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "anotações ARITMÉTICOS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

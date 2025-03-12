@@ -1,0 +1,16 @@
+B:\Nova pasta\C#\Calculadora\bin\Debug\net8.0-windows\Calculadora.exe
+B:\Nova pasta\C#\Calculadora\bin\Debug\net8.0-windows\Calculadora.deps.json
+B:\Nova pasta\C#\Calculadora\bin\Debug\net8.0-windows\Calculadora.runtimeconfig.json
+B:\Nova pasta\C#\Calculadora\bin\Debug\net8.0-windows\Calculadora.dll
+B:\Nova pasta\C#\Calculadora\bin\Debug\net8.0-windows\Calculadora.pdb
+B:\Nova pasta\C#\Calculadora\obj\Debug\net8.0-windows\Calculadora.calculadora1.resources
+B:\Nova pasta\C#\Calculadora\obj\Debug\net8.0-windows\Calculadora.csproj.GenerateResource.cache
+B:\Nova pasta\C#\Calculadora\obj\Debug\net8.0-windows\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+B:\Nova pasta\C#\Calculadora\obj\Debug\net8.0-windows\Calculadora.AssemblyInfoInputs.cache
+B:\Nova pasta\C#\Calculadora\obj\Debug\net8.0-windows\Calculadora.AssemblyInfo.cs
+B:\Nova pasta\C#\Calculadora\obj\Debug\net8.0-windows\Calculadora.csproj.CoreCompileInputs.cache
+B:\Nova pasta\C#\Calculadora\obj\Debug\net8.0-windows\Calculadora.dll
+B:\Nova pasta\C#\Calculadora\obj\Debug\net8.0-windows\refint\Calculadora.dll
+B:\Nova pasta\C#\Calculadora\obj\Debug\net8.0-windows\Calculadora.pdb
+B:\Nova pasta\C#\Calculadora\obj\Debug\net8.0-windows\Calculadora.genruntimeconfig.cache
+B:\Nova pasta\C#\Calculadora\obj\Debug\net8.0-windows\ref\Calculadora.dll

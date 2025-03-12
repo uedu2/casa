@@ -12,9 +12,18 @@ namespace tentativa_de_RPG2
 {
     public partial class Form1 : Form
     {
-        bool goleft, goright, goup, godown;
-        int playerSpeed;
+        bool goleft, goright, goup, godown, x, z, pause1;
+        int playerSpeed, y;
 
+        private void Player_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Texto_Click(object sender, EventArgs e)
+        {
+
+        }
 
         public Form1()
         {
@@ -28,8 +37,36 @@ namespace tentativa_de_RPG2
             gametimer.Start();
         }
 
+        public void pause()
+        {
+            pause1 = true;
+            gametimer.Stop();
+            if (pause1 == true)
+            {
+                if (z == true)
+                {
+                    resume();
+                }
+            }
+        }
+
+        public void resume()
+        {
+            pause1 = false;
+            gametimer.Start();
+        }
+
         private void maingametimer(object sender, EventArgs e)
         {
+            if (pause1)
+            {
+                if (z)
+                {
+                    resume();
+                }
+                return;
+            }
+
             if (goleft == true && Player.Left > 0)
             {
                 Player.Left -= playerSpeed;
@@ -45,6 +82,24 @@ namespace tentativa_de_RPG2
             if (godown == true && Player.Top < 400)
             {
                 Player.Top += playerSpeed;
+            }
+            if (Player.Bounds.IntersectsWith(NPC.Bounds))
+            {
+                caixaX.BackColor = Color.Black;
+            }
+            else
+            {
+                caixaX.BackColor = Color.White;
+            }
+
+            if (Player.Bounds.IntersectsWith(NPC.Bounds) && x == true) // fala do npc
+            {
+                Texto.BackColor = Color.Black;
+                pause();
+            }
+            else
+            {
+                Texto.BackColor = Color.White;
             }
         }
 
@@ -66,6 +121,14 @@ namespace tentativa_de_RPG2
             {
                 godown = true;
             }
+            if (e.KeyCode == Keys.X)
+            {
+                x = true;
+            }
+            if (e.KeyCode == Keys.Z)
+            {
+                z = true;
+            }
         }
 
         private void keyup(object sender, KeyEventArgs e)
@@ -85,6 +148,14 @@ namespace tentativa_de_RPG2
             if (e.KeyCode == Keys.Down)
             {
                 godown = false;
+            }
+            if (e.KeyCode == Keys.X)
+            {
+                x = false;
+            }
+            if (e.KeyCode == Keys.Z)
+            {
+                z = false;
             }
         }
     }
