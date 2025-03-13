@@ -1,16 +1,38 @@
-B:\Nova pasta\C#\Calculadora\bin\Debug\net8.0-windows\Calculadora.exe
-B:\Nova pasta\C#\Calculadora\bin\Debug\net8.0-windows\Calculadora.deps.json
-B:\Nova pasta\C#\Calculadora\bin\Debug\net8.0-windows\Calculadora.runtimeconfig.json
-B:\Nova pasta\C#\Calculadora\bin\Debug\net8.0-windows\Calculadora.dll
-B:\Nova pasta\C#\Calculadora\bin\Debug\net8.0-windows\Calculadora.pdb
-B:\Nova pasta\C#\Calculadora\obj\Debug\net8.0-windows\Calculadora.calculadora1.resources
-B:\Nova pasta\C#\Calculadora\obj\Debug\net8.0-windows\Calculadora.csproj.GenerateResource.cache
-B:\Nova pasta\C#\Calculadora\obj\Debug\net8.0-windows\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
-B:\Nova pasta\C#\Calculadora\obj\Debug\net8.0-windows\Calculadora.AssemblyInfoInputs.cache
-B:\Nova pasta\C#\Calculadora\obj\Debug\net8.0-windows\Calculadora.AssemblyInfo.cs
-B:\Nova pasta\C#\Calculadora\obj\Debug\net8.0-windows\Calculadora.csproj.CoreCompileInputs.cache
-B:\Nova pasta\C#\Calculadora\obj\Debug\net8.0-windows\Calculadora.dll
-B:\Nova pasta\C#\Calculadora\obj\Debug\net8.0-windows\refint\Calculadora.dll
-B:\Nova pasta\C#\Calculadora\obj\Debug\net8.0-windows\Calculadora.pdb
-B:\Nova pasta\C#\Calculadora\obj\Debug\net8.0-windows\Calculadora.genruntimeconfig.cache
-B:\Nova pasta\C#\Calculadora\obj\Debug\net8.0-windows\ref\Calculadora.dll
+C:\Users\eduardo.glira\programador\senac-programador\Calculadora\bin\Debug\net8.0-windows\Calculadora.exe
+C:\Users\eduardo.glira\programador\senac-programador\Calculadora\bin\Debug\net8.0-windows\Calculadora.deps.json
+C:\Users\eduardo.glira\programador\senac-programador\Calculadora\bin\Debug\net8.0-windows\Calculadora.runtimeconfig.json
+C:\Users\eduardo.glira\programador\senac-programador\Calculadora\bin\Debug\net8.0-windows\Calculadora.dll
+C:\Users\eduardo.glira\programador\senac-programador\Calculadora\bin\Debug\net8.0-windows\Calculadora.pdb
+C:\Users\eduardo.glira\programador\senac-programador\Calculadora\obj\Debug\net8.0-windows\Calculadora.Form1.resources
+C:\Users\eduardo.glira\programador\senac-programador\Calculadora\obj\Debug\net8.0-windows\Calculadora.csproj.GenerateResource.cache
+C:\Users\eduardo.glira\programador\senac-programador\Calculadora\obj\Debug\net8.0-windows\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eduardo.glira\programador\senac-programador\Calculadora\obj\Debug\net8.0-windows\Calculadora.AssemblyInfoInputs.cache
+C:\Users\eduardo.glira\programador\senac-programador\Calculadora\obj\Debug\net8.0-windows\Calculadora.AssemblyInfo.cs
+C:\Users\eduardo.glira\programador\senac-programador\Calculadora\obj\Debug\net8.0-windows\Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\eduardo.glira\programador\senac-programador\Calculadora\obj\Debug\net8.0-windows\Calculadora.sourcelink.json
+C:\Users\eduardo.glira\programador\senac-programador\Calculadora\obj\Debug\net8.0-windows\Calculadora.dll
+C:\Users\eduardo.glira\programador\senac-programador\Calculadora\obj\Debug\net8.0-windows\refint\Calculadora.dll
+C:\Users\eduardo.glira\programador\senac-programador\Calculadora\obj\Debug\net8.0-windows\Calculadora.pdb
+C:\Users\eduardo.glira\programador\senac-programador\Calculadora\obj\Debug\net8.0-windows\Calculadora.genruntimeconfig.cache
+C:\Users\eduardo.glira\programador\senac-programador\Calculadora\obj\Debug\net8.0-windows\ref\Calculadora.dll
+C:\Users\eduardo.glira\programador\senac-programador\Calculadora\obj\Debug\net8.0-windows\Calculadora.Properties.Resources.resources
+C:\Users\eduardo.glira\programador\senac-programador\Calculadora\obj\Debug\net8.0-windows\Calculadora.Form2.resources
+B:\Nova pasta\SENAC\casa\Calculadora\bin\Debug\net8.0-windows\Calculadora.exe
+B:\Nova pasta\SENAC\casa\Calculadora\bin\Debug\net8.0-windows\Calculadora.deps.json
+B:\Nova pasta\SENAC\casa\Calculadora\bin\Debug\net8.0-windows\Calculadora.runtimeconfig.json
+B:\Nova pasta\SENAC\casa\Calculadora\bin\Debug\net8.0-windows\Calculadora.dll
+B:\Nova pasta\SENAC\casa\Calculadora\bin\Debug\net8.0-windows\Calculadora.pdb
+B:\Nova pasta\SENAC\casa\Calculadora\obj\Debug\net8.0-windows\Calculadora.Form1.resources
+B:\Nova pasta\SENAC\casa\Calculadora\obj\Debug\net8.0-windows\Calculadora.Form2.resources
+B:\Nova pasta\SENAC\casa\Calculadora\obj\Debug\net8.0-windows\Calculadora.Properties.Resources.resources
+B:\Nova pasta\SENAC\casa\Calculadora\obj\Debug\net8.0-windows\Calculadora.csproj.GenerateResource.cache
+B:\Nova pasta\SENAC\casa\Calculadora\obj\Debug\net8.0-windows\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+B:\Nova pasta\SENAC\casa\Calculadora\obj\Debug\net8.0-windows\Calculadora.AssemblyInfoInputs.cache
+B:\Nova pasta\SENAC\casa\Calculadora\obj\Debug\net8.0-windows\Calculadora.AssemblyInfo.cs
+B:\Nova pasta\SENAC\casa\Calculadora\obj\Debug\net8.0-windows\Calculadora.csproj.CoreCompileInputs.cache
+B:\Nova pasta\SENAC\casa\Calculadora\obj\Debug\net8.0-windows\Calculadora.sourcelink.json
+B:\Nova pasta\SENAC\casa\Calculadora\obj\Debug\net8.0-windows\Calculadora.dll
+B:\Nova pasta\SENAC\casa\Calculadora\obj\Debug\net8.0-windows\refint\Calculadora.dll
+B:\Nova pasta\SENAC\casa\Calculadora\obj\Debug\net8.0-windows\Calculadora.pdb
+B:\Nova pasta\SENAC\casa\Calculadora\obj\Debug\net8.0-windows\Calculadora.genruntimeconfig.cache
+B:\Nova pasta\SENAC\casa\Calculadora\obj\Debug\net8.0-windows\ref\Calculadora.dll

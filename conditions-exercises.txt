@@ -1,0 +1,24 @@
+1. Leia os coeficientes de uma equação do segundo grau e escrever o valor de seu delta, sendo delta
+expresso pela fórmula: delta = b² - 4ac;
+
+2. Leia o preço de compra e o percentual de lucro desejado por um vendedor e calcular o preço de
+venda. 
+
+3. Escrever um algoritmo que leia o nome de um vendedor, o seu salário fixo e o total de vendas
+efetuadas por ele no mês (em dinheiro). Sabendo que este vendedor ganha 15% de comissão sobre
+suas vendas efetuadas, informar o seu nome, o salário fixo e salário no final do mês.
+
+4. Leia uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit. A fórmula
+de conversão é: F = (9*C+160) / 5, sendo F a temperatura em Fahrenheit e C a temperatura em
+Celsius. Mostre o valor em Fahrenheit (F) na tela e exiba uma mensagem sobre o tempo,
+considerando a seguinte regra: 
+
+Até 60F: mostre na tela "Leve um agasalho, o dia está frio".
+Até 77F: mostre "Dia propício para ir ao parque e caminhar".
+Acima de 77F: exiba "Dia perfeito para praia".
+
+5. Leia dois números inteiros A e B e informe se A é divisível por B.
+
+6. Faça um programa para ler o nome, as três notas e o número de faltas de um aluno e escrever qual
+a sua situação final: Aprovado, Reprovado por Falta ou Reprovado por Média. A média para
+aprovação é 6.0 e o limite de faltas é 5. A reprovação por falta sobrepõe a reprovação por média.

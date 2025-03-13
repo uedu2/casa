@@ -1,72 +1,157 @@
+using System.Buffers.Text;
+
 namespace Calculadora
 {
-    public partial class calculadora1 : Form
+    public partial class Form1 : Form
     {
-        public calculadora1()
+        public Form1()
         {
+
             InitializeComponent();
+
+
         }
 
-        private void bt7_Click(object sender, EventArgs e)
+        private void numero2_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void bt8_Click(object sender, EventArgs e)
+        private void Numero1_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void bt9_Click(object sender, EventArgs e)
+        private void resultado_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void bt4_Click(object sender, EventArgs e)
+        private void mais_Click(object sender, EventArgs e)
+        {
+            double.TryParse(Numero1.Text, out double num1);
+            double.TryParse(numero2.Text, out double num2);
+
+            double num3 = num1 + num2;
+            string resul = Numero1.Text.All(char.IsNumber) || numero2.Text.All(char.IsNumber) ? "" + num3 : "ambos os valores precisam ser números!";
+            
+            resultado.Text = resul;
+            numero2.Clear();
+            Numero1.Clear();
+        }
+
+        private void simbolo_Click(object sender, EventArgs e)
         {
 
         }
-
-        private void bt5_Click(object sender, EventArgs e)
+        private void menos_Click(object sender, EventArgs e)
         {
+            double.TryParse(Numero1.Text, out double num1);
+            double.TryParse(numero2.Text, out double num2);
+
+            double num3 = num1 - num2;
+            string resul = Numero1.Text.All(char.IsNumber) || numero2.Text.All(char.IsNumber) ? "" + num3 : "ambos os valores precisam ser números!";
+            
+            resultado.Text = resul;
+            numero2.Clear();
+            Numero1.Clear();
+        }
+
+        private void dividir_Click(object sender, EventArgs e)
+        {
+            double.TryParse(Numero1.Text, out double num1);
+            double.TryParse(numero2.Text, out double num2);
+
+            double num3 = num1 / num2;
+            string resul = Numero1.Text.All(char.IsNumber) || numero2.Text.All(char.IsNumber) ? "" + num3 : "ambos os valores precisam ser números!";
+            
+            resultado.Text = resul;
+            numero2.Clear();
+            Numero1.Clear();
+        }
+
+        private void multiplicar_Click(object sender, EventArgs e)
+        {
+            double.TryParse(Numero1.Text, out double num1);
+            double.TryParse(numero2.Text, out double num2);
+
+            double num3 = num1 * num2;
+            string resul = Numero1.Text.All(char.IsNumber) || numero2.Text.All(char.IsNumber) ? "" + num3 : "ambos os valores precisam ser números!";
+            
+            resultado.Text = resul;
+            numero2.Clear();
+            Numero1.Clear();
+        }
+
+        private void wesley_Click(object sender, EventArgs e)
+        {
+            // Crie uma nova instância do Form2
+            Form2 form2 = new Form2();
+
+            // Mostre o Form2
+            form2.ShowDialog();
+            //this.Hide();
 
         }
 
-        private void bt6_Click(object sender, EventArgs e)
+        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            simbolo.Text = checkedListBox1.Text.ToString();
+            
 
         }
 
-        private void bt1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
 
+            if (simbolo.Text == "+")
+            {
+                double.TryParse(Numero1.Text, out double num1);
+                double.TryParse(numero2.Text, out double num2);
+
+                double num3 = num1 + num2;
+                string resul = Numero1.Text.All(char.IsNumber) || numero2.Text.All(char.IsNumber) ? "" + num3 : "ambos os valores precisam ser números!";
+
+                resultado.Text = resul;
+                numero2.Clear();
+                Numero1.Clear();
+            }
+            else if (simbolo.Text == "-")
+            {
+                double.TryParse(Numero1.Text, out double num1);
+                double.TryParse(numero2.Text, out double num2);
+
+                double num3 = num1 - num2;
+                string resul = Numero1.Text.All(char.IsNumber) || numero2.Text.All(char.IsNumber) ? "" + num3 : "ambos os valores precisam ser números!";
+
+                resultado.Text = resul;
+                numero2.Clear();
+                Numero1.Clear();
+            }
+            else if (simbolo.Text == "*") 
+            {
+                double.TryParse(Numero1.Text, out double num1);
+                double.TryParse(numero2.Text, out double num2);
+               
+                double num3 = num1 * num2;
+                string resul = Numero1.Text.All(char.IsNumber) || numero2.Text.All(char.IsNumber) ? "" + num3 : "ambos os valores precisam ser números!";
+
+                resultado.Text = resul;
+                numero2.Clear();
+                Numero1.Clear();
+            }
+            else if (simbolo.Text == "/")
+            {
+                double.TryParse(Numero1.Text, out double num1);
+                double.TryParse(numero2.Text, out double num2);
+                
+                double num3 = num1 / num2;
+                string resul = Numero1.Text.All(char.IsNumber) || numero2.Text.All(char.IsNumber) ? "" + num3 : "ambos os valores precisam ser números!";
+
+                resultado.Text = resul;
+                numero2.Clear();
+                Numero1.Clear();
+            }
         }
-
-        private void bt2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bt3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bt0_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btvirgula_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btigual_Click(object sender, EventArgs e)
-        {
-
-        }
-
-       
     }
 }

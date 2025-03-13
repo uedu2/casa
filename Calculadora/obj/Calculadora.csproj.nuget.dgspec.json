@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "B:\\Nova pasta\\C#\\Calculadora\\Calculadora.csproj": {}
+    "B:\\Nova pasta\\SENAC\\casa\\Calculadora\\Calculadora.csproj": {}
   },
   "projects": {
-    "B:\\Nova pasta\\C#\\Calculadora\\Calculadora.csproj": {
+    "B:\\Nova pasta\\SENAC\\casa\\Calculadora\\Calculadora.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "B:\\Nova pasta\\C#\\Calculadora\\Calculadora.csproj",
+        "projectUniqueName": "B:\\Nova pasta\\SENAC\\casa\\Calculadora\\Calculadora.csproj",
         "projectName": "Calculadora",
-        "projectPath": "B:\\Nova pasta\\C#\\Calculadora\\Calculadora.csproj",
+        "projectPath": "B:\\Nova pasta\\SENAC\\casa\\Calculadora\\Calculadora.csproj",
         "packagesPath": "C:\\Users\\mario\\.nuget\\packages\\",
-        "outputPath": "B:\\Nova pasta\\C#\\Calculadora\\obj\\",
+        "outputPath": "B:\\Nova pasta\\SENAC\\casa\\Calculadora\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
